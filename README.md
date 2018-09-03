@@ -26,7 +26,7 @@ robot -d results tests/tests.robot
 ```
 Browser by default is Chrome, and book by default is 'Harry Potter and the philosopher's stone'
 
-### Option 2: 
+### Option 2: 
 In the terminal, go to the project's folder and add some parameters to the following command:
 ```
 robot -v BROWSER:{browser} -v BOOK:'{book_name}' -d results tests/tests.robot
