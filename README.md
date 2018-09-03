@@ -6,7 +6,7 @@ This project is just for learning and practice Robot Framework. It tests several
 * Robot Framework
 * PyCharm as IDE
 
-## Structure
+## Project Folder Structure
 ```
 portfolio-robot-framework-book-depository/
 +---resources        (common actions)
@@ -27,12 +27,12 @@ Browser by default is Chrome, and book by default is 'Harry Potter and the philo
 robot -v BROWSER:{browser} -v BOOK:'{book_name}' -d results tests/tests.robot
 ```
 {browser} = firefox, chrome, safari
+
 {book_name} = book to be searched
 
 Examples:
 ```
 robot -v BROWSER:firefox -v BOOK:'Alice in Wonderland' -d results tests/tests.robot
-
 robot -v BROWSER:safari -v BOOK:'Five weeks in a balloon' -d results tests/tests.robot
 ```
 
